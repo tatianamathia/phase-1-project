@@ -69,6 +69,16 @@
             "tickets_sold" : "140 tickets sold",
             "image" : "https://i.pinimg.com/564x/f1/b1/06/f1b10605cac17fc3a959a3819adfc7ee.jpg",
             "description" :"Silent Disco! Dance floor explodes, headphones control the vibe. 3 DJs battle for your ears - choose your jam, silent & social! Eco-friendly fun, pure movement. Don't miss out, tickets flying!"
+        },
+        {
+            "id": "8",
+            "name" : "SOLAR ECLIPSE",
+            "date" : "8th April 2024",
+            "time" : "starts at 8pm EAT",
+            "capacity" : "capacity of 700",
+            "tickets_sold" : "140 tickets sold",
+            "image" : "https://i.pinimg.com/564x/24/ac/df/24acdf718ec407d27c4bb67363b8c729.jpg",
+            "description" :"Witness a celestial spectacle unlike any other! Join us for a total solar eclipse watch party. On [date], the moon will completely engulf the sun, casting an otherworldly shadow and painting the sky with a breathtaking twilight hue. This rare event, visible only from a narrow path, happens just once in a lifetime! Don't miss this chance to gaze upon the universe's awe-inspiring power. Secure your spot today!"
         }
 
     ]
