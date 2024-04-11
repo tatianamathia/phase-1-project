@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Old Standard TT", serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    
+}
+
+#Home{
+    
+    height: 400vh;
+    background-color:#f2e9e4;
+}
+.event-image{
+  width: 800px;
+  height: 400px;
+}
+.event-card button {
+    background-color: #d5bdaf; /* Green color */
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer; /* Indicate clickable element */
+    display: block; /* Ensure the button is displayed */
+    font-size: x-large;
+    border-radius: 50px;
+  }
+#Search{
+    height: 15vh;
+    background-color:#c9ada7 ;
+    
+}
+
+
+#Cart{
+    height: 50vh;
+    background-color:#9a8c98;
+}
+#cartimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width:1800px;
+    margin-bottom: 10px;
+  
+}
+nav ul{
+    display: flex;
+    gap: 100px;
+}
+
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 250px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px, auto);
+  }
+   
+  .event-card p{
+    font-size: 25px;
+    
+  }

@@ -1,0 +1,84 @@
+{
+    "events" : [
+        {
+            "id": "1",
+            "name" : "LANTERN FEST",
+            "date" : "13th April 2024",
+            "time" : "starts at 6:30pm",
+            "capacity" : "capacity of 2000",
+            "tickets_sold" : "800 tickets sold",
+            "image" : "https://afar.brightspotcdn.com/dims4/default/38ebb83/2147483647/strip/true/crop/2000x1333+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2F27%2F0d%2F980e2090540413ea210090c31d2a%2Foriginal-yi-peng-thailand-lantern-festival.jpg",
+            "description" : "Night ignites with a thousand wishes. As darkness falls, lanterns transform the sky into a breathtaking tapestry of light. Release your own hope aloft, joining a symphony of flickering fireflies. Don't miss this magical night - Lantern Festival tickets are selling out fast!"
+        },
+        {
+            "id": "2",
+            "name" : "GLOBAL BEATS,LOCAL FEET",
+            "date" : "27th July 2024",
+            "time" : "from dusk till dawm",
+            "capacity" : "capacity of 800",
+            "tickets_sold" : "600 tickets sold",
+            "image" : "https://i.pinimg.com/564x/d8/8c/72/d88c729925ba672a54e36c4e8b765f60.jpg",
+            "description" : "Dance around the world with DJs spinning live from Tokyo to Ibiza, all beamed straight to your living room! It's a musical adventure without jet lag.  Tickets are flying, grab yours now!"
+        },
+        {
+            "id": "3",
+            "name" : "COACHELLA",
+            "date" : "8th May 2024 to 10th May",
+            "time" : "starts at 12pm",
+            "capacity" : "capacity of 10000",
+            "tickets_sold" : "5000 tickets sold",
+            "image" : "https://melissashoesfrance.com/cdn/shop/articles/210950-la-programmation-2017-vient-de-tomber-orig-1.webp?v=1681376695",
+            "description" : "Coachella awaits! Sun-soaked days turn into electrifying nights under the desert sky. Dance with a million festival fam to headliners you know and hidden gems you'll love. Coachella is more than music - it's an experience. A sensory explosion of fashion, art, and endless good vibes. Don't miss your chance to be part of the magic - tickets are disappearing faster than a desert mirage!"
+        },
+        {
+            "id": "4",
+            "name" : "DRIVE-IN THEATRE",
+            "date" : "14th Feb 2025",
+            "time" : "6:00pm to 6:00am",
+            "capacity" : "capacity of600",
+            "tickets_sold" : "500 tickets sold",
+            "image" : "https://i.pinimg.com/564x/8d/85/89/8d858931b47afed1ef99c479c8476ea2.jpg",
+            "description" : "Picture this: a cozy blanket under the starlit sky, sharing popcorn with your love. Our Valentine's Day Movie Night sets the scene for romance. Cuddle up with classic rom-coms or laugh the night away with comedies. Don't miss this open-air magic - tickets are selling fast, grab yours and make memories that last!"
+        },
+        {
+            "id": "5",
+            "name" : "CLOTHING SWAP",
+            "date" : "1st Mar 2024",
+            "time" : "from 9am to 8pm",
+            "capacity" : "capacity of 400",
+            "tickets_sold" : "100 tickets sold",
+            "image" : "https://i.pinimg.com/564x/4f/9b/32/4f9b324c97724c086ee55eac0a82abcc.jpg",
+            "description" : "Ditch the mall, embrace the swap! Trade your barely-worn threads for hidden gems at our fun clothing swap. Score unique styles, share fashion tips with fellow clotheshorses, and maybe even find your new BFF. It's a night of fashion, friends, and free finds! Tickets going fast, snag yours today!"
+        },
+        {
+            "id": "6",
+            "name" : "VINTAGE CAR VIEWING",
+            "date" : "20th Nov 2024",
+            "time" : "3pm to 8pm",
+            "capacity" : "capacity of200",
+            "tickets_sold" : "40 tickets sold",
+            "image" : "https://i.pinimg.com/564x/6f/2a/07/6f2a070224d992a8622892b0c13a318b.jpg",
+            "description" : "Step back in time for an afternoon of refined elegance. Join fellow connoisseurs at our Vintage Car Showcase. Immerse yourself in the timeless beauty of meticulously restored automobiles, each a testament to automotive artistry. Mingle with kindred spirits who share your passion for classic design and the thrill of vintage engineering. Don't miss this opportunity to celebrate automotive history in grand style. Secure your tickets today for a truly unforgettable experience!"
+        },
+        {
+            "id": "7",
+            "name" : "SILENT PARTY",
+            "date" : "8th Aug 2024",
+            "time" : "starts at 8pm",
+            "capacity" : "capacity of 700",
+            "tickets_sold" : "140 tickets sold",
+            "image" : "https://i.pinimg.com/564x/f1/b1/06/f1b10605cac17fc3a959a3819adfc7ee.jpg",
+            "description" :"Silent Disco! Dance floor explodes, headphones control the vibe. 3 DJs battle for your ears - choose your jam, silent & social! Eco-friendly fun, pure movement. Don't miss out, tickets flying!"
+        }
+
+    ]
+}
+
+
+
+   
+
+        
+        
+        
+

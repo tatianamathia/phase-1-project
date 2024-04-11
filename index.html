@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UT Events</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+
+
+
+    <section class="Home" id="Home">
+        <nav>
+            <div>
+            <img src="https://ca-times.brightspotcdn.com/dims4/default/ec027cf/2147483647/strip/true/crop/1197x402+0+0/resize/596x200!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F32%2F19%2F09cc54214cc49c2bfef3ee1fe6b1%2Fevents-landing-hero-banner.jpg" alt="logo" >
+            </div>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Search">Search Events</a></li>
+                <li><a href="#Create">Create Events</a></li>
+                <li><a href="#Cart">Cart</a></li>
+                
+            </ul>
+        </nav>
+        <div id="wrapper">
+            
+    </section>
+
+
+
+
+
+    <div class="search-container">
+      <section  id="Search">
+        <h1>Search Events</h1>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Enter event name">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="search-results"></div> 
+        <div id="not-found"></div>
+        </section>
+    </div>
+
+
+
+
+
+    
+
+    <section class="Cart-container" id="cart-items" >
+        <h1>Add to Cart</h1>
+        <ul id="cart-items">
+        </ul>
+      <script>
+        window.onload = updateCart; // Call updateCart on page load
+      </script>
+        
+        <img src="https://i.pinimg.com/236x/59/ce/80/59ce8014fde728d22e8755f64f1a4e61.jpg" alt="cart" id="cartimg">
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="index.js"></script>   
+</body>
+</html>
