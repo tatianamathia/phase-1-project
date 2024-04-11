@@ -36,14 +36,14 @@ body{
   }
 #Search{
     height: 10vh;
-    background-color:green
+    background-color:hotpink
     
 }
 
 
 #cart-items{
     height: 30vh;
-    background-color:cyan
+    background-color:forestgreen
 }
 #cartimg{
     width: 200px;
