@@ -18,7 +18,7 @@ body{
 #Home{
     
     height: 400vh;
-    background-color:#000;
+    background-color:white
 }
 .event-image{
   width: 800px;
@@ -36,14 +36,14 @@ body{
   }
 #Search{
     height: 10vh;
-    background-color:#000 ;
+    background-color:white;
     
 }
 
 
 #cart-items{
     height: 30vh;
-    background-color:#000;
+    background-color:white;
 }
 #cartimg{
     width: 200px;
