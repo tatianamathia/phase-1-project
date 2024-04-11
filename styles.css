@@ -35,15 +35,15 @@ body{
     border-radius: 50px;
   }
 #Search{
-    height: 15vh;
+    height: 10vh;
     background-color:#c9ada7 ;
     
 }
 
 
-#Cart{
-    height: 50vh;
-    background-color:#9a8c98;
+#cart-items{
+    height: 30vh;
+    background-color:white;
 }
 #cartimg{
     width: 200px;

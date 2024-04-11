@@ -6,6 +6,7 @@ const renderEvents = (data) => {
     data.forEach((event) => {
       const eventCard = document.createElement('div');
       eventCard.classList.add('event-card');
+      
   
       // Event heading
       const eventHeading = document.createElement('h1');
@@ -43,14 +44,7 @@ const renderEvents = (data) => {
       eventContainer.appendChild(eventCard);
     });
   };
-  const searchBar = document.getElementById('search-bar');
-  const searchButton = document.getElementById('search-button');
-
-
-  let cart = []; // Array to store cart items (objects)
-
-
-
+  
   // Fetch data from db.json (replace with your actual file path)
   fetchData('http://localhost:3000/events')
     .then(data => renderEvents(data))
@@ -68,8 +62,8 @@ const renderEvents = (data) => {
     } catch (error) {
       console.error('Error fetching data:', error);
     }
-  }
-  
+  } 
+
   function handleImageClick(event) {
     // Get the clicked event card element (parent of the clicked image)
     const clickedCard = event.currentTarget.parentElement;
@@ -83,28 +77,52 @@ const renderEvents = (data) => {
     clickedCard.appendChild(addToCartButton);
   } 
 
-  
-  
-  function updateCart() {
-    const cartContainer = document.getElementById('cart-items');
-    cart.forEach((event) => {
-      const cartItem = document.createElement('li');
-      cartItem.classList.add('cart-item');
-      cartItem.innerHTML = `
-      <p>${event.date} - ${event.time}</p>
-      <button data-id="${event.id}" class="remove-button">Remove</button>`
-      cartContainer.appendChild(cartItem);
-    }
-  )}
-
-  updateCart()
-
-
-
   function handleAddToCart(event) {
-    // Simulate adding the event to cart (replace with actual logic)
-    console.log('Event added to cart (simulation)');
+    const eventCard = event.currentTarget.parentElement;
+    const eventName = eventCard.querySelector('h1').textContent;
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Remove';
+    deleteButton.addEventListener('click', () => handleRemoveFromCart(listItem));
+  
     
-    // Redirect to Cart section using window.location.href
-    window.location.href = "#Cart"; // Adjust URL if needed
+    // Create list item for the event
+    const listItem = document.createElement('li');
+    listItem.textContent = eventName;
+  
+    // Append the list item to the cart list
+    const cartList = document.getElementById('cart-list');
+    cartList.appendChild(listItem);
+    // Implement logic to add the event to cart (simulation or actual implementation)
+    console.log('Event added to cart (simulation)'); // Placeholder message
+    // You can replace this with actual logic to add the event data to a cart list, send data to server, etc.
+    listItem.appendChild(deleteButton);
   }
+
+  // Search functionality
+function handleSearch() {
+  const searchInput = document.getElementById('searchInput').value.toLowerCase();
+  const eventCards = document.querySelectorAll('.event-card');
+
+  let eventFound = false;
+
+  // Loop through all event cards to find the one matching the search query
+  eventCards.forEach((eventCard) => {
+    const eventName = eventCard.querySelector('h1').textContent.toLowerCase();
+
+    if (eventName.includes(searchInput)) {
+      eventCard.scrollIntoView({ behavior: 'smooth' }); // Scroll to the event card
+      eventFound = true;
+    }
+  });
+
+  // Display message if event not found
+  if (!eventFound) {
+    alert('Event not found');
+  }
+}
+
+function handleRemoveFromCart(item) {
+  // Remove the list item from the cart list
+  const cartList = document.getElementById('cart-list');
+  cartList.removeChild(item);
+}
